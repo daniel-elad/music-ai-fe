@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 2em auto;
+    /* background: linear-gradient(135deg, navy, #001f4d, #001933); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #fff; */
+}
+.playlist-image-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+  input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+  }
+  button {
+    padding: 0.5em 1em;
+  }
+
+

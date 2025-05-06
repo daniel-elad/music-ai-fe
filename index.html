@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="style.css" />
-		<script src="script.js"></script>
-	</head>
-	<body></body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Song Artwork Generator</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="content-wrapper">
+		<h1>Playlist Artwork Generator</h1>
+		<div class="playlist-image-wrap">
+			<!-- בחירת פלייליסט -->
+			 <div class="playlists">
+				 <h2>Select Playlist:</h2>
+				 <form id="playlist-form">
+				   <div id="playlist-options"></div>
+				 </form>
+			   
+				 <button id="submit-mock">Send to OpenAI (Mock)</button>
+			 </div>
+			 <div class="image-wrap">
+				image here
+				<!-- insert loader -->
+				<img src="" alt="">
+			 </div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
 </html>
