@@ -15,16 +15,15 @@
 			<!-- בחירת פלייליסט -->
 			 <div class="playlists">
 				 <h2>Select Playlist:</h2>
-				 <form id="playlist-form">
+				 <form id="playlist-form" action="http://localhost:4000">
 				   <div id="playlist-options"></div>
 				 </form>
 			   
-				 <button id="submit-mock">Send to OpenAI (Mock)</button>
+				 <button id="submit-mock">Send to OpenAI</button>
 			 </div>
+			 <div id="loadingContainer"></div>
 			 <div class="image-wrap">
-				image here
-				<!-- insert loader -->
-				<img src="" alt="">
+				<img id="aiImage" src="" alt="">
 			 </div>
 		</div>
 	</div>
